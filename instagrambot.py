@@ -1,7 +1,6 @@
 from instapy import InstaPy #You need to ''' pip install instapy''' in your terminal before running this code in a virtual environment to ensure the library is downloaded to your system.
 
 insta = InstaPy(username='123abc', password='123abc', headless_browser=True) #You can remove the headless browser declaration if you attach a GUI to this program as I did before for a similar project however for this version, there is no GUI attached so this declaration saves GPU space and is faster.
-insta.login()
 insta.like_by_tags(["supercar", "lamborghini","apple","rap","money", "cool"], amount=5)
 insta.set_dont_like(["naked", "nsfw"])
 insta.set_do_follow(True, percentage=50)
