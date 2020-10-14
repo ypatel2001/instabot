@@ -1,0 +1,2 @@
+# instabot
+This program is a similar version of the backend script written for a small hackathon I participated in. It is a simple Python and Instapy based bot to increase engagement and number of followers of an Instagram user while also taking precautions to be safe and professional at the same time by using ClarifAI api to ignore NSFW or otherwise inappropriate posts. The API key and the username and password of the account used have been replaced with placeholders due to obvious privacy issues. 
